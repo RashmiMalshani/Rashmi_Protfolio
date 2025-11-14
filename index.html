@@ -1,10 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashmi Malshani | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">-->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">-->
+    <link rel="stylesheet" href="styles/Styles.css">
+
 <body>
+
+<!-- Animated Background -->
+<div class="animated-bg">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+</div>
+
+<!-- Particles -->
+<div class="particles" id="particles"></div>
+
+<!-- Navigation Bar -->
+<header id="navbar">
+    <a id="logo" href="#">RA<span>SH</span></a>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+    <div class="home-content">
+        <h1 id="home-text">Hello!<br>I'm <span>RASHMI MALSHANI</span></h1>
+        <div id="home-text1">
+            <h4>Web Developer</h4>
+            <h4>Software Engineer</h4>
+            <h4>UI/UX Designer</h4>
+        </div>
+        <img id="hero-img" src="assets/me1.jpg" alt="Rashmi Malshani">
+    </div>
+</section>
+
+<!--&lt;!&ndash; About Section &ndash;&gt;-->
+<!--<section id="about">-->
+<!--    <h1 class="section-title">About Me</h1>-->
+<!--    <p>-->
+<!--        I'm a passionate web developer and software engineer with a keen eye for design and user experience.-->
+<!--        My journey in technology has been driven by curiosity and a desire to create meaningful digital experiences.-->
+<!--        I specialize in creating responsive, user-friendly websites and applications that not only look great but-->
+<!--        also perform exceptionally. With a strong foundation in both frontend and backend development, I bring ideas-->
+<!--        to life through clean code and innovative solutions.-->
+<!--    </p>-->
+<!--</section>-->
+
+<!-- About Section -->
+<section id="about">
+    <!-- Floating decorative dots -->
+    <div class="floating-dot"></div>
+    <div class="floating-dot"></div>
+    <div class="floating-dot"></div>
+
+    <div class="about-container">
+        <h1 class="about-title">About Me</h1>
+
+        <div class="about-content">
+            <!-- Left Side - Image -->
+            <div class="about-image-box">
+                <div class="image-wrapper">
+                    <img src="assets/MWE.jpg"
+                         alt="About Me"
+                         class="about-image">
+                    <div class="shape-circle"></div>
+                    <div class="shape-square"></div>
+                </div>
+            </div>
+
+            <!-- Right Side - Text Content -->
+            <div class="about-text-box">
+                <p class="about-subtitle">🌟 Welcome to My Portfolio</p>
+
+                <p class="about-description">
+                    I'm a passionate and dedicated web developer and software engineer with a strong foundation
+                    in creating innovative digital solutions. My journey in technology has been driven by curiosity,
+                    creativity, and a commitment to excellence.
+                </p>
+
+                <p class="about-description">
+                    With expertise in both frontend and backend development, I specialize in building responsive,
+                    user-friendly applications that combine beautiful design with powerful functionality. I believe
+                    in writing clean, maintainable code and staying up-to-date with the latest industry trends.
+                </p>
+
+                <!-- Statistics -->
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-code stat-icon"></i>
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-certificate stat-icon"></i>
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Certificates</div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock stat-icon"></i>
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Exp</div>
+                    </div>
+                </div>
+
+                <!-- Skills Badges -->
+                <div class="about-skills">
+                    <div class="skill-badge">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Web Development</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>UI/UX Design</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fas fa-database"></i>
+                        <span>Database</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Education Section -->
+<section class="education" id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline-items">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2015 - 2020</div>
+            <div class="timeline-content">
+                <h3>Primary Education</h3>
+                <p>
+                    H/Debarawewa Central College<br />
+                    G.C.E (Ordinary Level) Examination with ICT<br />
+                    <b>Four "A" passes, Four "B" passes, One "C" passes</b>
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2021 - 2023 (2024)</div>
+            <div class="timeline-content">
+                <h3>Secondary Education</h3>
+                <p>
+                    H/Debarawewa Central College<br />
+                    G.C.E (Advance Level) Examination Maths Stream<br />
+                    <b>Three "S" passes</b>
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 - 2025</div>
+            <div class="timeline-content">
+                <h3>Foundation</h3>
+                <p>
+                    IJSE | Institute of Software Engineering<br />
+                    GDSE - Leading to BSc (Hons) in Computer Science<br />
+                    <b>Learning Now</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <h2 class="section-title">SKILLS</h2>
+    <div class="skills-container">
+        <div class="skills-image">
+            <img src="assets/skillsimg.jpg" alt="Skills">
+        </div>
+        <div class="skills-content">
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Teamwork</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Time Management</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Communication</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Educational Skills</h3>
+                    <div class="skill-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Critical Thinking</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Research</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Problem Solving</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <h2 class="section-title">PROJECTS</h2>
+    <div class="projects-list">
+        <div class="project-item">
+            <div class="project-icon"><i class="fas fa-book"></i></div>
+            <div class="project-info">
+                <h3>Library Management System</h3>
+            </div>
+            <span class="view-project">View Project</span>
+        </div>
+        <div class="project-item">
+            <div class="project-icon"><i class="fas fa-paw"></i></div>
+            <div class="project-info">
+                <h3>Petcare Management System</h3>
+            </div>
+            <span class="view-project">View Project</span>
+        </div>
+        <div class="project-item">
+            <div class="project-icon"><i class="fas fa-rocket"></i></div>
+            <div class="project-info">
+                <h3>Petcare Management System (Layered)</h3>
+            </div>
+            <span class="view-project">View Project</span>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <h2 class="section-title">GALLERY</h2>
+    <div class="container">
+        <div class="box">
+            <img src="assets/me3.jpg" alt="Gallery 1">
+        </div>
+        <div class="box">
+            <img src="assets/me2.jpg" alt="Gallery 2">
+        </div>
+        <div class="box">
+            <img src="assets/me1.jpg" alt="Gallery 3">
+        </div>
+        <div class="box">
+            <img src="assets/me4.jpg" alt="Gallery 4">
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h1 class="section-title">CONTACT</h1>
+    <div class="input-container">
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <input type="text" required />
+                <label>Name</label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="styled-input">
+                <input type="email" required />
+                <label>Email</label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="styled-input">
+                <input type="tel" required />
+                <label>Phone Number</label>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Message</label>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <button class="submit-btn">Send Message</button>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Create floating particles
+    const particlesContainer = document.getElementById('particles');
+    for (let i = 0; i < 50; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+        particle.style.animationDelay = Math.random() * 5 + 's';
+        particlesContainer.appendChild(particle);
+    }
+
+    // Smooth scroll behavior for navigation
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', () => {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 100) {
+            navbar.style.background = 'rgba(10, 10, 10, 0.95)';
+        } else {
+            navbar.style.background = 'rgba(10, 10, 10, 0.8)';
+        }
+    });
+
+    // Intersection Observer for scroll animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Observe all sections
+    document.querySelectorAll('section').forEach(section => {
+        observer.observe(section);
+    });
+</script>
 
 </body>
 </html>
